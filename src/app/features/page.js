@@ -6,7 +6,7 @@ export const metadata = {
 export default function Features() {
     return (
         <main>
-            <section className="section" style={{ paddingTop: '12rem', paddingBottom: '6rem' }}>
+            <section className="section pt-hero" style={{ paddingBottom: '6rem' }}>
                 <div className="container" style={{ maxWidth: '800px' }}>
                     <div className="mb-8 fade-in-up" style={{ marginBottom: '6rem' }}>
                         <h1 className="brand-font" style={{ fontSize: 'clamp(50px, 8vw, 90px)', letterSpacing: '-0.02em', lineHeight: '1.1' }}>

@@ -6,7 +6,7 @@ export const metadata = {
 export default function HowItWorks() {
     return (
         <main>
-            <section className="section" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', padding: '12rem 2rem 8rem 2rem' }}>
+            <section className="section pt-hero" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', paddingBottom: '8rem' }}>
                 <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
                     <div className="mb-8 fade-in-up md-text-center">
                         <h3 style={{ marginBottom: '1rem', letterSpacing: '0.1em' }}>System Architecture</h3>

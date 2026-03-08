@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Footer() {
     return (
         <footer>
-            <div className="container footer-content" style={{ alignItems: 'flex-start' }}>
+            <div className="container footer-content">
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                     <div className="logo brand-font">
                         InsightScholar

@@ -39,7 +39,7 @@ export default function Navigation() {
                 transition: 'all 0.3s ease'
             }}>
                 {/* Top Row: Logo & Icons */}
-                <div className="container" style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', width: '100%', paddingBottom: '1.5rem' }}>
+                <div className="container nav-top-row">
                     {/* Left: Mobile Menu Toggle */}
                     <div style={{ display: 'flex' }}>
                         <button
@@ -53,7 +53,7 @@ export default function Navigation() {
                     </div>
 
                     {/* Center: Logo */}
-                    <Link href="/" className="logo" style={{ fontSize: '2.5rem', fontWeight: 600, letterSpacing: '0.15em', textAlign: 'center' }}>
+                    <Link href="/" className="logo" style={{ textAlign: 'center' }}>
                         InsightScholar
                     </Link>
 
@@ -65,7 +65,7 @@ export default function Navigation() {
                 </div>
 
                 {/* Bottom Row: Nav Links */}
-                <div style={{ width: '100%', borderTop: '1px solid rgba(255,255,255,0.08)', borderBottom: scrolled ? '1px solid rgba(255,255,255,0.08)' : '1px solid transparent', transition: 'border-color 0.3s' }}>
+                <div className="nav-bottom-row" style={{ borderBottom: scrolled ? '1px solid rgba(255,255,255,0.08)' : '1px solid transparent' }}>
                     <div className="container" style={{ display: 'flex', justifyContent: 'center', padding: '1rem 0' }}>
                         <div className="nav-links" style={{ gap: '4rem', fontWeight: 600, letterSpacing: '0.1em' }}>
                             <Link href="/" className={pathname === '/' ? 'active' : ''}>Home</Link>
