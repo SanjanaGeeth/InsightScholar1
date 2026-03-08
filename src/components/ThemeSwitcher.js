@@ -4,25 +4,7 @@ import { useState, useEffect } from 'react';
 
 const themes = [
     {
-        name: 'Presentation Dark',
-        colors: {
-            '--bg-main': '#1F497D',
-            '--text-main': '#FFFFFF',
-            '--text-muted': '#4BACC6',
-            '--accent': '#F79646'
-        }
-    },
-    {
-        name: 'Presentation Light',
-        colors: {
-            '--bg-main': '#EEECE1',
-            '--text-main': '#1F497D',
-            '--text-muted': '#8064A2',
-            '--accent': '#C0504D'
-        }
-    },
-    {
-        name: 'Polar Night (Current)',
+        name: 'Dark',
         colors: {
             '--bg-main': '#0a0a0c',
             '--text-main': '#f0f0f0',
@@ -31,48 +13,12 @@ const themes = [
         }
     },
     {
-        name: 'Insight Blue (Original)',
+        name: 'Light',
         colors: {
             '--bg-main': '#F5F7FA',
             '--text-main': '#1F2D3D',
             '--text-muted': '#5A6B7C',
             '--accent': '#2E6FDE'
-        }
-    },
-    {
-        name: 'Deep Emerald',
-        colors: {
-            '--bg-main': '#081c15',
-            '--text-main': '#d8f3dc',
-            '--text-muted': '#74c69d',
-            '--accent': '#52b788'
-        }
-    },
-    {
-        name: 'Warm Sand',
-        colors: {
-            '--bg-main': '#f4f1de',
-            '--text-main': '#3d405b',
-            '--text-muted': '#81b29a',
-            '--accent': '#e07a5f'
-        }
-    },
-    {
-        name: 'Midnight Purple',
-        colors: {
-            '--bg-main': '#10002b',
-            '--text-main': '#e0aaff',
-            '--text-muted': '#c77dff',
-            '--accent': '#9d4edd'
-        }
-    },
-    {
-        name: 'Stark Contrast',
-        colors: {
-            '--bg-main': '#ffffff',
-            '--text-main': '#000000',
-            '--text-muted': '#555555',
-            '--accent': '#ff0000'
         }
     }
 ];

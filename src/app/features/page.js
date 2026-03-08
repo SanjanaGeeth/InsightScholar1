@@ -17,12 +17,21 @@ export default function Features() {
                         </p>
                     </div>
 
+                    <div className="image-reveal mb-8" style={{ width: '100%', height: '350px', position: 'relative', marginBottom: '6rem' }}>
+                        <img
+                            src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=2000&auto=format&fit=crop"
+                            alt="Abstract scientific data visualization"
+                            className="scale-on-hover"
+                            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.1) brightness(0.9)' }}
+                        />
+                    </div>
+
                     <div className="mt-8">
                         <div className="minimal-block fade-in-up delay-1">
                             <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-muted)', fontSize: '0.8rem' }}>01</h3>
-                            <h2 style={{ marginBottom: '1.5rem', fontSize: '2rem' }}>Semantic Search with SPECTER2</h2>
+                            <h2 style={{ marginBottom: '1.5rem', fontSize: '2rem' }}>Semantic Search with SciBERT & SPECTER</h2>
                             <p className="text-secondary" style={{ fontSize: '1.1rem', maxWidth: '600px', lineHeight: '1.8' }}>
-                                InsightScholar uses the SPECTER2 transformer model developed by the Allen Institute for AI. The model is trained on millions of scientific papers and produces 768-dimensional embeddings representing the exact meaning of research content. Understand research concepts, capture relationships between scientific topics, and significantly improve relevance compared to traditional keyword search.
+                                InsightScholar uses powerful transformer models developed specifically for scientific text processing. These models are fine-tuned via contrastive learning on millions of scientific papers to produce semantic embeddings, capturing accurate relationships between academic topics with precision.
                             </p>
                         </div>
 
@@ -36,9 +45,9 @@ export default function Features() {
 
                         <div className="minimal-block fade-in-up delay-1">
                             <h3 style={{ marginBottom: '0.5rem', color: 'var(--text-muted)', fontSize: '0.8rem' }}>03</h3>
-                            <h2 style={{ marginBottom: '1.5rem', fontSize: '2rem' }}>Concept-Based Discovery</h2>
+                            <h2 style={{ marginBottom: '1.5rem', fontSize: '2rem' }}>Hybrid Tag & Metadata Filtering</h2>
                             <p className="text-secondary" style={{ fontSize: '1.1rem', maxWidth: '600px', lineHeight: '1.8' }}>
-                                Unlike traditional search engines, InsightScholar finds papers conceptually related to the user&apos;s research question. Discover relevant work across disciplines, even when the underlying terminology varies completely.
+                                Unlike traditional search engines, InsightScholar implements a <strong>hybrid pipeline</strong> integrating dense semantic representations with traditional metadata filtering (keywords, authors, publication year). This ensures structural accuracy and resolves the "cold-start" problem for newly published papers.
                             </p>
                         </div>
 
@@ -59,10 +68,10 @@ export default function Features() {
 
                             <div style={{ paddingLeft: '2rem', borderLeft: '1px solid var(--text-muted)' }}>
                                 <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.2rem', marginBottom: '0.5rem', fontWeight: '400' }}>SHAP Feature Importance</h4>
-                                <p className="text-secondary" style={{ fontSize: '0.9rem', marginBottom: '1.5rem' }}>Exposes which exact features contributed most to the final ranking decision.</p>
+                                <p className="text-secondary" style={{ fontSize: '0.9rem', marginBottom: '1.5rem' }}>Visualizes feature impact by determining which exact abstract embeddings or metadata tags contributed most to the final recommendation score.</p>
 
                                 <h4 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.2rem', marginBottom: '0.5rem', fontWeight: '400' }}>Anchor-Based Explanations</h4>
-                                <p className="text-secondary" style={{ fontSize: '0.9rem' }}>Provides clean, rule-based reasoning behind complex statistical recommendations.</p>
+                                <p className="text-secondary" style={{ fontSize: '0.9rem' }}>Provides clean, local rule-based reasoning behind complex statistical recommendations, answering the question "Why this paper?" in plain logic.</p>
                             </div>
                         </div>
                     </div>

@@ -16,12 +16,21 @@ export default function About() {
                         </h1>
                     </div>
 
-                    <div className="fade-in-up delay-1" style={{ paddingTop: '2rem', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+                    <div className="image-reveal fade-in-up delay-1" style={{ width: '100%', height: '400px', position: 'relative', marginBottom: '4rem' }}>
+                        <img
+                            src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=2000&auto=format&fit=crop"
+                            alt="Moody dark library aisles"
+                            className="scale-on-hover"
+                            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.2) brightness(0.7)' }}
+                        />
+                    </div>
+
+                    <div className="fade-in-up delay-2" style={{ paddingTop: '2rem', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
                         <p className="text-secondary" style={{ fontSize: '1.2rem', marginBottom: '1.5rem', lineHeight: '1.8' }}>
-                            InsightScholar leverages transformer-based language models trained purely on academic publications. We convert papers and queries into high-dimensional semantic embeddings.
+                            InsightScholar leverages hybrid transformer-based models trained on massive academic corpora like ArXiv and OpenAlex. The system resolves information overload by converting textual abstracts into high-dimensional semantic embeddings.
                         </p>
                         <p className="text-secondary" style={{ fontSize: '1.2rem', marginBottom: '1.5rem', lineHeight: '1.8' }}>
-                            These embeddings represent the deepest conceptual meaning of your research topics, enabling the system to identify orthogonal work even when terminology strictly differs. Advanced ranking algorithms combined with transparent explainable AI ensures accuracy without sacrificing trust.
+                            Combined with a rigorous Tag-Filtering mechanism, these embeddings enable researchers to discover orthogonal topics mathematically. To build academic trust, everything is backed by Explainable AI strategies (like SHAP and Anchors) to ensure the logic remains completely transparent.
                         </p>
                     </div>
 
@@ -32,9 +41,9 @@ export default function About() {
                             <div>
                                 <h4 style={{ fontSize: '1.2rem', fontFamily: 'var(--font-heading)', marginBottom: '1rem', fontWeight: 400 }}>Machine Learning</h4>
                                 <ul style={{ listStyleType: 'none', padding: 0 }} className="text-secondary">
-                                    <li style={{ marginBottom: '0.5rem' }}>PyTorch</li>
-                                    <li style={{ marginBottom: '0.5rem' }}>HuggingFace Transformers</li>
-                                    <li style={{ marginBottom: '0.5rem' }}>SPECTER2 Architecture</li>
+                                    <li style={{ marginBottom: '0.5rem' }}>PyTorch & TensorFlow</li>
+                                    <li style={{ marginBottom: '0.5rem' }}>SciBERT & SPECTER Embeddings</li>
+                                    <li style={{ marginBottom: '0.5rem' }}>K-Means Clustering Analysis</li>
                                 </ul>
                             </div>
 
@@ -42,7 +51,7 @@ export default function About() {
                                 <h4 style={{ fontSize: '1.2rem', fontFamily: 'var(--font-heading)', marginBottom: '1rem', fontWeight: 400 }}>Search Infrastructure</h4>
                                 <ul style={{ listStyleType: 'none', padding: 0 }} className="text-secondary">
                                     <li style={{ marginBottom: '0.5rem' }}>FAISS Vector Index</li>
-                                    <li style={{ marginBottom: '0.5rem' }}>768-Dim Embeddings</li>
+                                    <li style={{ marginBottom: '0.5rem' }}>Hybrid Tag Retrieval</li>
                                 </ul>
                             </div>
 
@@ -50,8 +59,8 @@ export default function About() {
                                 <h4 style={{ fontSize: '1.2rem', fontFamily: 'var(--font-heading)', marginBottom: '1rem', fontWeight: 400 }}>Data & Backend</h4>
                                 <ul style={{ listStyleType: 'none', padding: 0 }} className="text-secondary">
                                     <li style={{ marginBottom: '0.5rem' }}>Python / FastAPI</li>
-                                    <li style={{ marginBottom: '0.5rem' }}>SQLite Database</li>
-                                    <li style={{ marginBottom: '0.5rem' }}>Academic Metadata</li>
+                                    <li style={{ marginBottom: '0.5rem' }}>PostgreSQL Database</li>
+                                    <li style={{ marginBottom: '0.5rem' }}>S2ORC & OpenAlex Corpi</li>
                                 </ul>
                             </div>
 

@@ -21,7 +21,7 @@ export default function Contact() {
                     <div className="fade-in-up delay-1" style={{ marginTop: '4rem' }}>
                         <div style={{ background: '#f0f0f0', padding: '0', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
                             <iframe
-                                src="https://docs.google.com/forms/d/e/1FAIpQLSfplaceholder_form_link/viewform?embedded=true"
+                                src="https://forms.gle/PPCrc4GJTd3LM2DQA"
                                 width="100%"
                                 height="600"
                                 frameBorder="0"
