@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import feather from 'feather-icons';
 
 export default function Navigation() {
     const pathname = usePathname();
@@ -11,8 +10,6 @@ export default function Navigation() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     useEffect(() => {
-        feather.replace();
-
         const handleScroll = () => {
             setScrolled(window.scrollY > 50);
         };
@@ -48,7 +45,19 @@ export default function Navigation() {
                             style={{ background: 'transparent', border: 'none', color: 'var(--text-main)', cursor: 'pointer', display: 'none' }}
                             aria-label="Toggle menu"
                         >
-                            <i data-feather={mobileMenuOpen ? "x" : "menu"} style={{ width: '28px', height: '28px' }}></i>
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                {mobileMenuOpen ? (
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                ) : (
+                                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                                )}
+                                {mobileMenuOpen ? (
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                ) : (
+                                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                                )}
+                                {!mobileMenuOpen && <line x1="3" y1="18" x2="21" y2="18"></line>}
+                            </svg>
                         </button>
                     </div>
 
@@ -57,10 +66,8 @@ export default function Navigation() {
                         InsightScholar
                     </Link>
 
-                    {/* Right: Icons */}
+                    {/* Right: Empty for grid balance */}
                     <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '1.5rem', alignItems: 'center' }}>
-                        <i data-feather="search" style={{ width: '22px', height: '22px', cursor: 'pointer', color: 'var(--text-main)' }}></i>
-                        <i data-feather="star" style={{ width: '22px', height: '22px', cursor: 'pointer', color: 'var(--text-main)' }}></i>
                     </div>
                 </div>
 

@@ -17,10 +17,10 @@ export default function Home() {
 
           <div className="hero-actions fade-in-up delay-3" style={{ display: 'flex', gap: '2rem', justifyContent: 'center' }}>
             <Link href="/features" className="btn btn-primary">
-              Explore Key Features
+              Explore AI Capabilities
             </Link>
             <Link href="/how-it-works" className="btn">
-              View System Architecture
+              See How It Works
             </Link>
           </div>
         </div>
