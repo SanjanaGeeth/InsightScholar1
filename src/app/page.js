@@ -19,8 +19,8 @@ export default function Home() {
             <Link href="/features" className="btn btn-primary">
               Explore AI Capabilities
             </Link>
-            <Link href="/how-it-works" className="btn">
-              See How It Works
+            <Link href="/about" className="btn">
+              Discover Architecture
             </Link>
           </div>
         </div>

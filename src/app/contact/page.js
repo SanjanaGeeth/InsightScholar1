@@ -9,9 +9,9 @@ export default function Contact() {
             <section className="section" style={{ paddingTop: '12rem', paddingBottom: '4rem' }}>
                 <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
                     <div className="mb-8 fade-in-up">
-                        <h3 style={{ marginBottom: '1rem' }}>Early Access</h3>
+                        <h3 style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>Early Access</h3>
                         <h1 className="brand-font" style={{ fontSize: 'clamp(40px, 6vw, 70px)', lineHeight: '1.1', marginBottom: '2rem' }}>
-                            Join the Beta.
+                            Join the <span className="gradient-text">Beta.</span>
                         </h1>
                         <p className="text-secondary" style={{ fontSize: '1.2rem', maxWidth: '500px', margin: '0 auto' }}>
                             Sign up below to request early access to the InsightScholar platform and revolutionize your literature review.
@@ -19,7 +19,7 @@ export default function Contact() {
                     </div>
 
                     <div className="fade-in-up delay-1" style={{ marginTop: '4rem' }}>
-                        <div style={{ background: '#f0f0f0', padding: '0', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
+                        <div style={{ background: 'white', padding: '1rem', borderRadius: '16px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
                             <iframe
                                 src="https://forms.gle/PPCrc4GJTd3LM2DQA"
                                 width="100%"
@@ -27,7 +27,6 @@ export default function Contact() {
                                 frameBorder="0"
                                 marginHeight="0"
                                 marginWidth="0"
-                                style={{ filter: 'grayscale(100%) contrast(1.1)' }}
                             >
                                 Loading…
                             </iframe>

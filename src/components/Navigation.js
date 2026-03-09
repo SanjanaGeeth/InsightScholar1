@@ -77,8 +77,8 @@ export default function Navigation() {
                         <div className="nav-links" style={{ gap: '4rem', fontWeight: 600, letterSpacing: '0.1em' }}>
                             <Link href="/" className={pathname === '/' ? 'active' : ''}>Home</Link>
                             <Link href="/features" className={pathname === '/features' ? 'active' : ''}>Features</Link>
-                            <Link href="/how-it-works" className={pathname === '/how-it-works' ? 'active' : ''}>How It Works</Link>
                             <Link href="/about" className={pathname === '/about' ? 'active' : ''}>About</Link>
+                            <Link href="/pricing" className={pathname === '/pricing' ? 'active' : ''}>Pricing</Link>
                             <Link href="/contact" className={pathname === '/contact' ? 'active' : ''}>Contact</Link>
                         </div>
                     </div>
@@ -90,8 +90,8 @@ export default function Navigation() {
                 <div className="mobile-nav-links">
                     <Link href="/" className={pathname === '/' ? 'active' : ''}>Home</Link>
                     <Link href="/features" className={pathname === '/features' ? 'active' : ''}>Features</Link>
-                    <Link href="/how-it-works" className={pathname === '/how-it-works' ? 'active' : ''}>How It Works</Link>
                     <Link href="/about" className={pathname === '/about' ? 'active' : ''}>About</Link>
+                    <Link href="/pricing" className={pathname === '/pricing' ? 'active' : ''}>Pricing</Link>
                     <Link href="/contact" className={pathname === '/contact' ? 'active' : ''} style={{ color: 'var(--accent)' }}>Early Access</Link>
                 </div>
             </div>
