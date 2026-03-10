@@ -1,5 +1,5 @@
 export const metadata = {
-    title: 'Key Features | InsightScholar',
+    title: 'Features | InsightScholar',
     description: 'Explore the semantic search, FAISS indexing, hybrid ranking, and explainable AI capabilities of InsightScholar.',
 };
 
