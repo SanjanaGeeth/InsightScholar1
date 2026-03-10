@@ -1,3 +1,5 @@
+import EarlyAccessButton from '../../components/EarlyAccessButton';
+
 export const metadata = {
     title: 'Features | InsightScholar',
     description: 'Explore the semantic search, FAISS indexing, hybrid ranking, and explainable AI capabilities of InsightScholar.',
@@ -8,13 +10,18 @@ export default function Features() {
         <main>
             <section className="section pt-hero" style={{ paddingBottom: '6rem' }}>
                 <div className="container" style={{ maxWidth: '100%' }}>
-                    <div className="mb-8 fade-in-up" style={{ marginBottom: '6rem' }}>
-                        <h1 className="brand-font" style={{ fontSize: 'clamp(50px, 8vw, 90px)', letterSpacing: '-0.02em', lineHeight: '1.1' }}>
-                            The <br /><span style={{ color: 'var(--text-muted)' }}>Architecture.</span>
-                        </h1>
-                        <p className="mt-4" style={{ fontSize: '1.2rem', color: 'var(--text-muted)', maxWidth: '100%', marginTop: '2rem' }}>
-                            Advanced machine learning transforms how you discover academic literature through five core pillars.
-                        </p>
+                    <div className="mb-8 fade-in-up md-flex-row" style={{ marginBottom: '6rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '2rem' }}>
+                        <div>
+                            <h1 className="brand-font" style={{ fontSize: 'clamp(50px, 8vw, 90px)', letterSpacing: '-0.02em', lineHeight: '1.1' }}>
+                                The <br /><span style={{ color: 'var(--text-muted)' }}>Architecture.</span>
+                            </h1>
+                            <p className="mt-4" style={{ fontSize: '1.2rem', color: 'var(--text-muted)', maxWidth: '600px', marginTop: '2rem' }}>
+                                Advanced machine learning transforms how you discover academic literature through five core pillars.
+                            </p>
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', marginTop: '1rem' }}>
+                            <EarlyAccessButton />
+                        </div>
                     </div>
 
                     <div className="image-reveal mb-8" style={{ width: '100%', height: '350px', position: 'relative', marginBottom: '6rem' }}>
