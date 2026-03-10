@@ -79,10 +79,10 @@ h3 {
 /* Layout */
 .container {
   width: 100%;
-  max-width: 1000px;
-  /* Narrower for that fine-art column feel */
+  max-width: 100%;
+  /* Full screen width to fit any device size */
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 5vw;
 }
 
 /* Navigation */

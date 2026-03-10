@@ -7,13 +7,13 @@ export default function Pricing() {
     return (
         <main>
             <section className="section" style={{ paddingTop: '12rem', paddingBottom: '4rem' }}>
-                <div className="container" style={{ maxWidth: '1000px', textAlign: 'center' }}>
+                <div className="container" style={{ maxWidth: '100%', textAlign: 'center' }}>
                     <div className="mb-8 fade-in-up">
                         <h3 style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>Pricing Plans</h3>
                         <h1 className="brand-font" style={{ fontSize: 'clamp(40px, 6vw, 70px)', lineHeight: '1.1', marginBottom: '2rem' }}>
                             Scale your research.
                         </h1>
-                        <p className="text-secondary" style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto' }}>
+                        <p className="text-secondary" style={{ fontSize: '1.2rem', maxWidth: '100%', margin: '0 auto' }}>
                             Start exploring for free, and upgrade to unlock advanced Explainable AI and high-volume API access.
                         </p>
                     </div>
@@ -70,3 +70,4 @@ export default function Pricing() {
         </main>
     );
 }
+

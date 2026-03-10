@@ -9,7 +9,7 @@ export default function NotFound() {
     return (
         <main>
             <section className="section" style={{ paddingTop: '12rem', paddingBottom: '4rem', minHeight: '80vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
+                <div className="container" style={{ maxWidth: '100%', textAlign: 'center' }}>
                     <div className="bg-blob blob-3" style={{ top: '50%', left: '50%' }}></div>
 
                     <div className="mb-8 fade-in-up">
@@ -17,7 +17,7 @@ export default function NotFound() {
                             404
                         </h1>
                         <h3 style={{ marginBottom: '2rem', fontSize: '2rem' }}>Page Not Found</h3>
-                        <p className="text-secondary" style={{ fontSize: '1.2rem', maxWidth: '500px', margin: '0 auto', marginBottom: '3rem' }}>
+                        <p className="text-secondary" style={{ fontSize: '1.2rem', maxWidth: '100%', margin: '0 auto', marginBottom: '3rem' }}>
                             The academic record you're searching for doesn't exist in our current index, or the URL has evolved.
                         </p>
                     </div>
@@ -33,3 +33,4 @@ export default function NotFound() {
         </main>
     );
 }
+

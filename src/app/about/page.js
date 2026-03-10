@@ -7,7 +7,7 @@ export default function About() {
     return (
         <main>
             <section className="section pt-hero">
-                <div className="container" style={{ maxWidth: '800px' }}>
+                <div className="container" style={{ maxWidth: '100%' }}>
 
                     <div className="fade-in-up">
                         <h3 style={{ marginBottom: '1rem' }}>The Mission</h3>
@@ -220,3 +220,4 @@ export default function About() {
         </main>
     );
 }
+

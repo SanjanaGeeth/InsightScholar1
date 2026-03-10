@@ -7,13 +7,13 @@ export default function Contact() {
     return (
         <main>
             <section className="section" style={{ paddingTop: '12rem', paddingBottom: '4rem' }}>
-                <div className="container" style={{ maxWidth: '800px', textAlign: 'center' }}>
+                <div className="container" style={{ maxWidth: '100%', textAlign: 'center' }}>
                     <div className="mb-8 fade-in-up">
                         <h3 style={{ marginBottom: '1rem', color: 'var(--text-muted)' }}>Early Access</h3>
                         <h1 className="brand-font" style={{ fontSize: 'clamp(40px, 6vw, 70px)', lineHeight: '1.1', marginBottom: '2rem' }}>
                             Join the <span className="gradient-text">Beta.</span>
                         </h1>
-                        <p className="text-secondary" style={{ fontSize: '1.2rem', maxWidth: '500px', margin: '0 auto' }}>
+                        <p className="text-secondary" style={{ fontSize: '1.2rem', maxWidth: '100%', margin: '0 auto' }}>
                             Sign up below to request early access to the InsightScholar platform and revolutionize your literature review.
                         </p>
                     </div>
@@ -37,3 +37,4 @@ export default function Contact() {
         </main>
     );
 }
+
