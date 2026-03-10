@@ -50,7 +50,7 @@ export default function About() {
                                     </li>
                                     <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <img src="https://cdn.simpleicons.org/huggingface/888888" alt="HuggingFace" style={{ width: '24px', height: '24px' }} />
-                                        SciBERT & SPECTER Embeddings
+                                        <a href="https://arxiv.org/abs/1903.10676" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>SciBERT</a> & <a href="https://github.com/allenai/specter" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>SPECTER</a> Embeddings
                                     </li>
                                     <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <img src="https://cdn.simpleicons.org/scikitlearn/888888" alt="Scikit-Learn" style={{ width: '24px', height: '24px' }} />
@@ -64,7 +64,7 @@ export default function About() {
                                 <ul style={{ listStyleType: 'none', padding: 0 }} className="text-secondary">
                                     <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <img src="https://cdn.simpleicons.org/meta/888888" alt="FAISS" style={{ width: '24px', height: '24px' }} />
-                                        FAISS Vector Index
+                                        <a href="https://github.com/facebookresearch/faiss" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>FAISS</a> Vector Index
                                     </li>
                                     <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#888888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>
@@ -89,7 +89,7 @@ export default function About() {
                                     </li>
                                     <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#888888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
-                                        S2ORC & OpenAlex Corpi
+                                        <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>ArXiv</a> & <a href="https://openalex.org/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>OpenAlex</a> Corpi
                                     </li>
                                 </ul>
                             </div>
@@ -99,7 +99,7 @@ export default function About() {
                                 <ul style={{ listStyleType: 'none', padding: 0 }} className="text-secondary">
                                     <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#888888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-                                        SHAP Feature Importance
+                                        <a href="https://shap.readthedocs.io/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>SHAP</a> Feature Importance
                                     </li>
                                     <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#888888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="5" r="3"></circle><line x1="12" y1="22" x2="12" y2="8"></line><path d="M5 12H2a10 10 0 0 0 20 0h-3"></path></svg>

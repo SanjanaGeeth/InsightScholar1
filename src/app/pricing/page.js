@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const metadata = {
     title: 'Pricing | InsightScholar',
     description: 'Simple, transparent pricing for researchers and institutions.',
@@ -31,7 +33,7 @@ export default function Pricing() {
                                 <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>✓ <span style={{ color: 'var(--text-main)' }}>Standard filters</span></li>
                                 <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.5 }}><span style={{ color: 'transparent' }}>✓</span> No XAI Visualizations</li>
                             </ul>
-                            <button className="btn btn-outline" style={{ width: '100%' }}>Sign Up Free</button>
+                            <Link href="/contact" className="btn btn-outline" style={{ display: 'block', width: '100%', textAlign: 'center' }}>Sign Up Free</Link>
                         </div>
 
                         {/* Pro Tier */}
@@ -47,7 +49,7 @@ export default function Pricing() {
                                 <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>✓ <span style={{ color: 'var(--text-main)' }}>Citation graph alerts</span></li>
                                 <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>✓ <span style={{ color: 'var(--text-main)' }}>Export to Zotero/Mendeley</span></li>
                             </ul>
-                            <button className="btn btn-primary" style={{ width: '100%' }}>Get Started</button>
+                            <Link href="/contact" className="btn btn-primary" style={{ display: 'block', width: '100%', textAlign: 'center' }}>Get Started</Link>
                         </div>
 
                         {/* Enterprise Tier */}
@@ -62,7 +64,7 @@ export default function Pricing() {
                                 <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>✓ <span style={{ color: 'var(--text-main)' }}>SSO Integration</span></li>
                                 <li style={{ marginBottom: '0.8rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>✓ <span style={{ color: 'var(--text-main)' }}>Dedicated account manager</span></li>
                             </ul>
-                            <button className="btn btn-outline" style={{ width: '100%' }}>Contact Sales</button>
+                            <Link href="/contact" className="btn btn-outline" style={{ display: 'block', width: '100%', textAlign: 'center' }}>Contact Sales</Link>
                         </div>
                     </div>
                 </div>

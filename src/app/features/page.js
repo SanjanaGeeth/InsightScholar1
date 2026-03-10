@@ -12,11 +12,11 @@ export default function Features() {
                 <div className="container" style={{ maxWidth: '100%' }}>
                     <div className="mb-8 fade-in-up md-flex-row" style={{ marginBottom: '6rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '2rem' }}>
                         <div>
-                            <h1 className="brand-font" style={{ fontSize: 'clamp(50px, 8vw, 90px)', letterSpacing: '-0.02em', lineHeight: '1.1' }}>
-                                The <br /><span style={{ color: 'var(--text-muted)' }}>Architecture.</span>
+                            <h1 className="brand-font" style={{ fontSize: 'clamp(40px, 6vw, 70px)', letterSpacing: '-0.02em', lineHeight: '1.1' }}>
+                                Explainable AI Architecture <br /><span style={{ color: 'var(--text-muted)' }}>for Academic Research.</span>
                             </h1>
                             <p className="mt-4" style={{ fontSize: '1.2rem', color: 'var(--text-muted)', maxWidth: '600px', marginTop: '2rem' }}>
-                                Advanced machine learning transforms how you discover academic literature through five core pillars.
+                                Our semantic search engine transforms how you discover academic literature through five core pillars.
                             </p>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', marginTop: '1rem' }}>

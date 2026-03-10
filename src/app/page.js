@@ -7,19 +7,19 @@ export default function Home() {
         <div className="container">
           <h3 className="fade-in-up" style={{ marginBottom: '2rem', letterSpacing: '0.2em' }}>Explainable AI Research Paper Recommendations</h3>
 
-          <h1 className="brand-font fade-in-up delay-1" style={{ marginBottom: '2.5rem', maxWidth: '800px', margin: '0 auto 2.5rem auto' }}>
-            Intelligent <span className="gradient-text">Academic</span> Search.
+          <h1 className="brand-font fade-in-up delay-1" style={{ marginBottom: '2.5rem', maxWidth: '100%', margin: '0 auto 2.5rem auto' }}>
+            The Intelligent <span className="gradient-text">Academic</span> Search Engine.
           </h1>
 
-          <p className="fade-in-up delay-2 text-secondary" style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto 4rem auto' }}>
-            A hybrid recommendation system combining Deep Transformer Embeddings with Tag-Filtering and transparent AI reasoning. Support your research with context, not just keywords.
+          <p className="fade-in-up delay-2 text-secondary" style={{ fontSize: '1.2rem', maxWidth: '100%', margin: '0 auto 4rem auto' }}>
+            Get explainable research paper recommendations combining Deep Transformer Embeddings with Tag-Filtering and transparent AI reasoning. Support your research with context, not just keywords.
           </p>
 
           <div className="hero-actions fade-in-up delay-3" style={{ display: 'flex', gap: '2rem', justifyContent: 'center' }}>
-            <Link href="/features" className="btn btn-primary">
+            <Link href="/about" className="btn btn-primary">
               Explore AI Capabilities
             </Link>
-            <Link href="/about" className="btn">
+            <Link href="/features" className="btn">
               Discover Architecture
             </Link>
           </div>
